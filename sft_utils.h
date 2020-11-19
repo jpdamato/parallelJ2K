@@ -1,0 +1,1 @@
+double sft_clock(void);

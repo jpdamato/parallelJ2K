@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E35CEBD6-0286-490F-BAEB-46993767F31B}</ProjectGuid>
+    <RootNamespace>parallelJ2k</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <OpenMPSupport>true</OpenMPSupport>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <OpenMPSupport>true</OpenMPSupport>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="bio.h" />
+    <ClInclude Include="cidx_manager.h" />
+    <ClInclude Include="cio.h" />
+    <ClInclude Include="dwt.h" />
+    <ClInclude Include="event.h" />
+    <ClInclude Include="format_defs.h" />
+    <ClInclude Include="indexbox_manager.h" />
+    <ClInclude Include="int.h" />
+    <ClInclude Include="j2k.h" />
+    <ClInclude Include="jp2.h" />
+    <ClInclude Include="jpt.h" />
+    <ClInclude Include="mct.h" />
+    <ClInclude Include="mqc.h" />
+    <ClInclude Include="openjpeg.h" />
+    <ClInclude Include="opj_config.h" />
+    <ClInclude Include="opj_getopt.h" />
+    <ClInclude Include="opj_includes.h" />
+    <ClInclude Include="opj_malloc.h" />
+    <ClInclude Include="pi.h" />
+    <ClInclude Include="raw.h" />
+    <ClInclude Include="sft_all_types.h" />
+    <ClInclude Include="sft_bitmapLoader.h" />
+    <ClInclude Include="sft_j2k_Encoder.h" />
+    <ClInclude Include="sft_j2k_streamRW.h" />
+    <ClInclude Include="sft_utils.h" />
+    <ClInclude Include="t1.h" />
+    <ClInclude Include="t2.h" />
+    <ClInclude Include="tcd.h" />
+    <ClInclude Include="tgt.h" />
+    <ClInclude Include="windirent.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="bio.c" />
+    <ClCompile Include="cio.c" />
+    <ClCompile Include="dwt.c" />
+    <ClCompile Include="event.c" />
+    <ClCompile Include="int.c" />
+    <ClCompile Include="j2kEncoder.c" />
+    <ClCompile Include="mct.c" />
+    <ClCompile Include="mqc.c" />
+    <ClCompile Include="openjpeg.c" />
+    <ClCompile Include="opj_malloc.c" />
+    <ClCompile Include="pi.c" />
+    <ClCompile Include="sft_bitmapLoader.c" />
+    <ClCompile Include="sft_j2k_Encoder.c" />
+    <ClCompile Include="sft_j2k_streamRW.c" />
+    <ClCompile Include="sft_utils.c" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

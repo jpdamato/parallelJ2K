@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="bio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cidx_manager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dwt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="event.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="indexbox_manager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="int.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="j2k.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="jp2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="jpt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mqc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="openjpeg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="opj_includes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="opj_malloc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="raw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sft_all_types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="t1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="t2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tcd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tgt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="windirent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="opj_getopt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="format_defs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="opj_config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sft_utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sft_bitmapLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sft_j2k_streamRW.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sft_j2k_Encoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="bio.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cio.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dwt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="event.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="int.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mct.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="openjpeg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="opj_malloc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="j2kEncoder.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sft_utils.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sft_bitmapLoader.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sft_j2k_streamRW.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sft_j2k_Encoder.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mqc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
